@@ -20,7 +20,7 @@ function makeAnagram(a,b) {
     // return count;
 }
 
-console.log(makeAnagram('cdefe','abcde'));
+console.log(makeAnagram('cde','edc'));
 console.log(makeAnagram('cde','dcf'));
 console.log(makeAnagram('fcrxzwscanmligyxyvym','jxwtrhvujlmrpdoqbisbwhmgpmeoke'));
 
