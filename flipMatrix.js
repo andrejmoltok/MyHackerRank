@@ -1,3 +1,5 @@
+/* NOT SOLVED YET */
+
 // flip a 2n*2n matrix to obtain the biggest sum possible in the upper-left quadrant of the matrix
 function flip(matrix) {
     //check for the largest numbers in the matrix

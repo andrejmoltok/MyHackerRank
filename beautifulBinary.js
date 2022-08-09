@@ -1,3 +1,5 @@
+/* NOT SOLVED YET */
+
 function beBinary(s) {
     const b = "010";
     let arr = s.match(/.{010}/g);

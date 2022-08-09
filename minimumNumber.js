@@ -1,3 +1,5 @@
+/* NOT SOLVED YET */
+
 function minimumNumber(n, password) {
     // Return the minimum number of characters to make the password strong
     const numbers = "0123456789".split('').map(function(item) {return Number.parseInt(item, 10)});

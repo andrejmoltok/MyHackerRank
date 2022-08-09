@@ -1,3 +1,5 @@
+/* NOT SOLVED YET */
+
 function makeAnagram(a,b) {
     let one = a.split('').sort().join('').split('');
     let two = b.split('').sort().join('').split('');;
@@ -20,9 +22,6 @@ function makeAnagram(a,b) {
     // return count;
 }
 
-console.log(makeAnagram('cde','edc'));
-console.log(makeAnagram('cde','dcf'));
-console.log(makeAnagram('fcrxzwscanmligyxyvym','jxwtrhvujlmrpdoqbisbwhmgpmeoke'));
-
-// fcrxzwscanmligyxyvym
-// jxwtrhvujlmrpdoqbisbwhmgpmeoke
+// console.log(makeAnagram('cde','edc'));
+// console.log(makeAnagram('cde','dcf'));
+// console.log(makeAnagram('fcrxzwscanmligyxyvym','jxwtrhvujlmrpdoqbisbwhmgpmeoke'));
