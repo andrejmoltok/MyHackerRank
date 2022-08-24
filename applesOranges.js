@@ -8,19 +8,19 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
     
     let fallenOrange = [];
     
-    // for (let i = 0; i < apples.length; i += 1) {
-    //     let distApple = a + apples[i];
-    //     fallenApple.push(distApple);
-    // }
+    for (let i = 0; i < apples.length; i += 1) {
+        let distApple = a + apples[i];
+        fallenApple.push(distApple);
+    }
 
-    apples.forEach((item) => fallenApple.push(a + item));
+    //apples.forEach((item) => fallenApple.push(a + item));
     
-    // for (let j = 0; j < oranges.length; j += 1) {
-    //     let distOrange = b + oranges[j];
-    //     fallenOrange.push(distOrange);
-    // }
+    for (let j = 0; j < oranges.length; j += 1) {
+        let distOrange = b + oranges[j];
+        fallenOrange.push(distOrange);
+    }
 
-    oranges.forEach((item) => fallenOrange.push(b + item));
+    //oranges.forEach((item) => fallenOrange.push(b + item));
 
     let apple = fallenApple.map(x => {if (x >= s && x <= t) {return x;}}).filter((elem) => Number(elem));
 
