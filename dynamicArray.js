@@ -3,11 +3,11 @@ function dynamicArray(n, queries) {
     // Initialize arr[n][0]
     let arr = new Array();
     for (let i = 0; i < n; i++) {
-        arr.push(new Array().fill(0));
+        arr.push(new Array());
     }
 
     // Initialize the `answers` array
-    let answers= new Array();
+    let answers = new Array();
 
     // Apply queries
     let lastAnswer = 0;
