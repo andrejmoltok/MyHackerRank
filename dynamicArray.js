@@ -16,7 +16,7 @@ function dynamicArray(n, queries) {
         let x = queries[k][1];
         let y = queries[k][2];
         let idx = ((x ^ lastAnswer) % n);
-        if(queryType == 1){
+        if(queryType === '1'){
             arr[idx].push(y);    
         } else {
             lastAnswer = arr[idx][y % arr[idx].length];
