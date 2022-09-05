@@ -4,18 +4,8 @@
 function flip(matrix) {
     //check for the largest numbers in the matrix
     let large = [];
-    for (let i = 0; i < matrix.length; i += 1) {
-        for (let j = 0; j < matrix[i].length; j += 1) {
-            if (matrix[i][j] > matrix[i][j+1]) {
-                large.push(matrix[i][j]);
-            } else {
-                large.push(matrix[i][j+1]);
-            }
-        }
-    }
-    //return the index of the largest numbers
-    //then move/flip them to be in the upper-left quadrant of the matrix
-    //then sum the values and return it
+    // sum = mx[0][0] + mx[0][1] + mx[1][0] + mx[1][1]
+        
 
 }
 

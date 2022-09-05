@@ -6,8 +6,8 @@ function matchingStrings(strings, queries /*string array inputs*/) {
     for (let i = 0; i < queries.length; i += 1) {
         let count = 0;
             for (let j = 0; j < strings.length; j += 1) {
-                if ((queries[i] == strings[j])) {
-                    count +=1;
+                if (queries[i] == strings[j]) {
+                    count += 1;
                 }
             }
         result.push(count);
