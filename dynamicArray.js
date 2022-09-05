@@ -1,3 +1,5 @@
+// translated from Java source
+
 function dynamicArray(n, queries) {
 
     // Initialize arr[n][0]
