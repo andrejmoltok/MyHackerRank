@@ -10,8 +10,6 @@ function breakingRecords(scores) {
             low = scores[i];
             winlose[1] += 1;
         } else if (scores[i] > low && scores[i] < high) {
-            //winlose[0] += 0;
-            //winlose[1] += 0;
             continue;
         } 
     }
