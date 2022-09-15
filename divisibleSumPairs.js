@@ -19,4 +19,4 @@ function divSumPairs(n, k , ar) {
     return count;
 }
 
-console.log(divSumPairs(6,3,[1, 3, 2, 6, 1, 2]));
+console.log(divSumPairs(6,3,[1, 3, 2, 6, 1, 2])); // 5
