@@ -11,7 +11,7 @@ function birthday(s, d, m) {
             arr.push(s.slice(i,m+i));
         }
     }
-
+    
     arr.forEach(function(v,i,a) {
         if (v.reduce((p,c) => p+c,0) === d) {count++}});
 
