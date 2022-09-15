@@ -3,6 +3,7 @@ function birthdayCakeCandles(arr) {
     let largest = arr.reduce(function(p,c) {
         return Math.max(p,c)
     });
+    console.log(largest);
     for (let i = 0; i < arr.length; i += 1) {
         if (largest === arr[i]) {
             count++
