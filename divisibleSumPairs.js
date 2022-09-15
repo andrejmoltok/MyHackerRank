@@ -3,8 +3,8 @@ function divSumPairs(n, k , ar) {
 
     let arr = [];
 
-    for (let i = 0; i < ar.length; i++) {
-        for (let j = i; j < ar.length-1; j++) {
+    for (let i = 0; i < n; i++) {
+        for (let j = i; j < n; j++) {
             arr.push([ar[i],ar[j+1]]);
         }
     }
