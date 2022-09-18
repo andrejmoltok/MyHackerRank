@@ -8,11 +8,7 @@ function bonAppetit(bill:Array<number>, k:number, b:number) {
         totalShared.push(bill[i]);
     }
     let half = (totalShared.reduce((p,c) => p+c,0) / 2);
-    if (half == b) {
-        return 'Bon Appetit'
-    } else {
-        return b - half;
-    }
+    return half == b ? "Bon Appetit" : b - half;
 }
 
 console.log(bonAppetit([3,10,2,9], 1, 12));
