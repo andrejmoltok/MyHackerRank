@@ -1,11 +1,15 @@
 function miniMaxSum(arr) {
     // Write your code here
+    let newArr = [];
+
     let sorted = arr.sort(function(a,b){return(a-b)});
 
     let minSum = sorted.slice(0,sorted.length-1).reduce((p,c) => p+c,0);
     let maxSum = sorted.slice(1,sorted.length).reduce((p,c) => p+c,0);
     
-    return minSum + " " + maxSum;
+    newArr.push(minSum,maxSum);
+
+    return newArr[0], newArr[1];
 }
 
 console.log(miniMaxSum([1,2,3,4,5]));
