@@ -8,6 +8,6 @@ function bonAppetit(bill, k, b) {
         totalShared.push(bill[i]);
     }
     var half = (totalShared.reduce(function (p, c) { return p + c; }, 0) / 2);
-    return half == b ? "Bon Appetit" : b- half;
+    return half == b ? "Bon Appetit" : b - half;
 }
 console.log(bonAppetit([3, 10, 2, 9], 1, 12));
