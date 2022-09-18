@@ -6,7 +6,8 @@ function bonAppetit(bill, k, b) {
             continue;
         }
         totalShared.push(bill[i]);
-    }
+    };
+    // bill.forEach((v,i) => {if (i == k) {return};totalShared.push(bill[i])});
     var half = (totalShared.reduce(function (p, c) { return p + c; }, 0) / 2);
     return half == b ? "Bon Appetit" : b - half;
 }
