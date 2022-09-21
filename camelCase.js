@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/camelcase/problem
+
 function camelcase(s) {
     // Write your code here
     // start counting from 1, because every string in camelcase 

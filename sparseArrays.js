@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/sparse-arrays/problem
+
 function matchingStrings(strings, queries /*string array inputs*/) {
     // initialize result array
     let result = [];

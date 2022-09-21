@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/diagonal-difference/problem
+
 function diagDiff(arr){
     let rtl = 0;
     let ltr = 0;

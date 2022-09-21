@@ -1,4 +1,5 @@
 // translated from Java source
+// https://www.hackerrank.com/challenges/dynamic-array/problem
 
 function dynamicArray(n, queries) {
 

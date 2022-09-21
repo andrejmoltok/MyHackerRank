@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
+
 function divSumPairs(n, k , ar) {
     let count = 0;
 

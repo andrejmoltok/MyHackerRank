@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/kangaroo/problem
+
 function kangaroo(x1, v1, x2, v2) {
     // Write your code here
     // repeat addition until x1 = x2

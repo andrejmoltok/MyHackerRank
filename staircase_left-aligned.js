@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/staircase/problem
+
 function staircase(n) {
     const hash = '#';
     const space = ' ';

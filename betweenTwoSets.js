@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/between-two-sets/problem
+
 function getTotalX(a, b) {
     let count = 0;
     let aMax = Math.max(...a);

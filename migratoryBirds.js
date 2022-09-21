@@ -1,9 +1,14 @@
+// https://www.hackerrank.com/challenges/migratory-birds/problem
+
 function migratoryBirds(arr) {
     let ar = [...Array(6).fill(0)];
+
     //arr.forEach((v) => ar[v] += 1); //SOLUTION 1
+
     //arr.reduce((p,v) => ar[v]++,ar); //SOLUTION 2
+
     //ar = arr.reduce(function(p,v) {p[v]++,return p},ar); //SOLUTION 3
-    console.log(ar);
+
     return ar.findIndex((v) => v == Math.max(...ar));
 }
 

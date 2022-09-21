@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/bon-appetit/problem
+
 function bonAppetit(bill, k, b) {
     var totalShared = new Array();
     totalShared = [];

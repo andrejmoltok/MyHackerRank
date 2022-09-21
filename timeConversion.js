@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/time-conversion/problem
+
 function timeConv(s) {
     let hour = s.substring(0,2);
     let format = s.substring(2,8);

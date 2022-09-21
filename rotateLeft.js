@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/array-left-rotation/problem
+
 function rotLeft(a, d) {
     // Write your code here
     for (let i = 1; i <= d; i += 1) {

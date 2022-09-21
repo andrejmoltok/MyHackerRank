@@ -1,10 +1,11 @@
+// https://www.hackerrank.com/challenges/sock-merchant/problem
+
 function sockMerchant(n, ar) {
     // n - is number of socks
     // ar - array of colors of the socks
     // return how many pairs are there
     let arr = [];
     let sorted = ar.sort(function(a,b){return(a-b)});
-    console.log(sorted);
     for (let i = 0; i < n; i+=1) {
         let count = 0;
         if (sorted[i] == sorted[i+1]) {

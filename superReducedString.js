@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/reduced-string/problem
+
 function superReducedString(s) {
     // Write your code here
     const arr = s.split('');

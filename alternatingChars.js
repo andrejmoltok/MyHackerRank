@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/alternating-characters/problem
+
 function alternatingCharacters(s) {
     // Write your code here
     const list = s.split('');
