@@ -11,10 +11,9 @@ function getMoneySpent(keyboards, drives, b) {
         }
     }
     // return ha maximum amount which can be spent
-    let exp = Math.max(...((sum.filter((elem) => !(elem > b)))));
-    if (sum.length == 1 && sum > b) {
-        return -1;
-    } else if (exp > b) {
+    let exp = Math.max(...((sum.filter((elem) => (elem <= b)))));
+    //console.log(exp);
+    if (exp === -Infinity) {
         return -1;
     } else {
         return exp;
