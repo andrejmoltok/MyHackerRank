@@ -12,11 +12,7 @@ function utopianTree(n) {
         // odd cycles as (H * 2), spring cycle doubles height,
         // even cycles as (H + 1), summer cycle grows 1 meter
         for (let i = 1; i <= n; i++) {
-            if (i % 2 != 0) {
-                H = H * 2;
-            } else {
-                H = H + 1;
-            }
+            i % 2 != 0 ? H = H * 2 : H = H + 1;
         }
         return H;
     }
