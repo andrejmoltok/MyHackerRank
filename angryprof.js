@@ -1,9 +1,19 @@
 // https://www.hackerrank.com/challenges/angry-professor/problem
 
+// function angryProfessor(k, a) {
+//     let count = 0;
+//     a.forEach((v) => {if (v <= 0) {count++;}});
+//     return count >= k ? 'NO' : 'YES'; 
+// }
+
 function angryProfessor(k, a) {
     let count = 0;
-    a.forEach((v) => {if (v <= 0) {count++;}});
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] <= 0) {
+            count++;
+        }
+    }
     return count >= k ? 'NO' : 'YES'; 
 }
 
-console.log(angryProfessor(2,[0, -1, 2, 1]));
+console.log(angryProfessor(3,[0, -1, 2, 1]));
