@@ -3,8 +3,12 @@
 function chocolateFeast(n, c, m) {
     let eatenFirst = n/c;
     let wrappers = Math.trunc(eatenFirst/m);
-    console.log(eatenFirst);
-    console.log(wrappers);
+    //console.log("chochlates first ",eatenFirst);
+    if (eatenFirst == m) {
+        return eatenFirst + 1;
+    } else if (eatenFirst > m) {
+        console.log("test");
+    }
 
 }
 
