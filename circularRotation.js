@@ -2,7 +2,7 @@
 
 function circularArrayRotation(a, k, queries) {
     // Write your code here
-    let result = new Array();
+    // let result = new Array();
     result = [];
     for (let i = 1; i <= k; i += 1) {
         let last = a.pop();
@@ -13,3 +13,5 @@ function circularArrayRotation(a, k, queries) {
     }
     return result;
 }
+
+console.log(circularArrayRotation([3,4,5],2,[1,2]));

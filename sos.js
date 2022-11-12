@@ -9,7 +9,7 @@ function marsExploration(s) {
     // if Yes, then return previous value,
     // if No, then increment by one
     // then return p
-    return s.split('').reduce((p,c,i) => {c==orig[i]?p:p++;console.log(p,c,i,orig[i]);return p;},0);
+    return s.split('').reduce((p,c,i) => {c==orig[i]?p:p++;/*console.log(p,c,i,orig[i]);*/return p;},0);
 }
 
 console.log(marsExploration("SOSSOSSSSOSOIEISOSPOISOSIUSISO"));
