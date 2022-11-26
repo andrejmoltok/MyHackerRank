@@ -1,16 +1,9 @@
-function birthdayCakeCandles(arr) {
-    let count = 0;
-    let largest = arr.reduce(function(p,c) {
-        return Math.max(p,c)
-    });
-    console.log(largest);
-    for (let i = 0; i < arr.length; i += 1) {
-        if (largest === arr[i]) {
-            count++
-        }
-    }
-    console.log(count);
+// https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
+function birthdayCakeCandles(candles) {
+    let largest = candles.reduce(function(p,c) {return Math.max(p,c)});
+    return candles.reduce(function(p,c,i,a) {largest == c ? p++ : p; return p;},0);
 }
 
-birthdayCakeCandles([3,2,1,3]);
-birthdayCakeCandles([4,2,1,4]);
+console.log(birthdayCakeCandles([3,2,1,3]));
+console.log(birthdayCakeCandles([4,2,1,4]));
