@@ -13,7 +13,6 @@
 //faster version
 function maximizingXor(l, r) {
     // Write your code here
-    let arr = [];
     let temp = 0;
     let max = 0;
     for (let i = l; i <= r; i++) {
